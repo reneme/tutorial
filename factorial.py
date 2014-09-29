@@ -10,7 +10,10 @@ if len(sys.argv) != 2:
   usage()
   sys.exit(1)
 
-number = sys.argv[1]
+number = int(sys.argv[1])
 
-print "You've given me:" , number
+factorial = 1
+for i in range (2, number+1):
+	factorial *= i
 
+print factorial
