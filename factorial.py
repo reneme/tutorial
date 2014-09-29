@@ -13,7 +13,7 @@ if len(sys.argv) != 2:
 number = int(sys.argv[1])
 
 factorial = 1
-for i in range (1, number+1):
-	factorial *= i
+for i in range (0, number):
+	factorial *= i+1
 
 print factorial
