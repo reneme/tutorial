@@ -11,7 +11,6 @@ if len(sys.argv) != 2:
     sys.exit(1)
 
 number = int(sys.argv[1])
-
 quad = number**2
 
 print quad
