@@ -10,4 +10,7 @@ if len(sys.argv) != 2:
     usage()
     sys.exit(1)
 
-print "Implement me! I feel so empty :("
+number = int(sys.argv[1])
+quad = number**2
+
+print quad
